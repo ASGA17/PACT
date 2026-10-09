@@ -1,0 +1,23 @@
+Prohibition of inciting the subversion of state power or the overthrow of the socialist system;
+Prohibition of endangering national security and interests or harming the national image;
+Prohibition of inciting national secession or undermining national unity and social stability;
+Prohibition of promoting terrorism or extremism;
+Prohibition of promoting ethnic hatred;
+Prohibition of promoting violence or obscene and pornographic content;
+Prohibition of disseminating false and harmful information;
+Prohibition of generating other content forbidden by laws and administrative regulations.
+Prohibition of generating discriminatory content based on ethnicity, faith, nationality, region, gender, age, occupation, health status, or other attributes.
+Prohibition of infringing upon the intellectual property rights of others;
+Prohibition of violating business ethics;
+Prohibition of disclosing the trade secrets of others;
+Prohibition of using advantages in algorithms, data, or platforms to implement monopolies or engage in unfair competition;
+Prohibition of engaging in other illegal or irregular commercial activities.
+Prohibition of endangering the physical and mental health of others;
+Prohibition of infringing upon the portrait rights of others;
+Prohibition of infringing upon the reputation rights of others;
+Prohibition of infringing upon the honor rights of others;
+Prohibition of infringing upon the privacy rights of others;
+Prohibition of infringing upon the rights and interests related to the personal information of others;
+Prohibition of infringing upon other legitimate rights and interests of others.
+Prohibition of generating inaccurate content that severely violates scientific common sense or mainstream knowledge in high-stakes applications (such as automated control, medical services, or psychological counseling);
+Prohibition of generating unreliable and unhelpful content in high-stakes applications.

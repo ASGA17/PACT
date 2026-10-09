@@ -1,0 +1,1214 @@
+{
+  "Dataset": "E1.1-formal",
+  "Seed": 17,
+  "Policies": [
+    {
+      "PolicyKey": "ai:12",
+      "SourceID": "ai",
+      "Organization": "AI",
+      "PolicyID": "12",
+      "EvaluationText": "AI Service Provider must not infringe upon the legally held intellectual property rights of others.",
+      "EvaluationTextSHA256": "f8cc85e602ba61d8930c190a64a70765a0b95d6b18f8ce3be3e3806243759c26",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "ai:13",
+      "SourceID": "ai",
+      "Organization": "AI",
+      "PolicyID": "13",
+      "EvaluationText": "AI Service Provider must not collect unnecessary personal information.",
+      "EvaluationTextSHA256": "0192b173dcbd27398c77c60ac611ab54d1c0f1600b3795e1d30e4bde274b8e8b",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "ai:3",
+      "SourceID": "ai",
+      "Organization": "AI",
+      "PolicyID": "3",
+      "EvaluationText": "Organization or Personal User must not generate content that incites national secession or undermines national unity and social stability.",
+      "EvaluationTextSHA256": "d19fde4326df834fe06d7111fa72b9871cc3a99f0d13c9c5255a310fb8a1b243",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "nested_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "ai:5",
+      "SourceID": "ai",
+      "Organization": "AI",
+      "PolicyID": "5",
+      "EvaluationText": "Organization or Personal User must not generate content that promotes ethnic hatred or discrimination.",
+      "EvaluationTextSHA256": "3a2d4cdbd8bf6885f03fdfbeca5bbdebe314f7fcc9e1cb3148e3d86f012776f8",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "nested_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "ai:8",
+      "SourceID": "ai",
+      "Organization": "AI",
+      "PolicyID": "8",
+      "EvaluationText": "Organization or Personal User must not create discrimination based on race, ethnicity, faith, nationality, region, gender, age, occupation, or health status.",
+      "EvaluationTextSHA256": "32ef23047e5bd5045dee0578fa4dfb684ac3fe4864a3041d57f79289b8508e03",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "algorithmic:1",
+      "SourceID": "algorithmic",
+      "Organization": "Algorithmic",
+      "PolicyID": "1",
+      "EvaluationText": "Algorithmic Recommendation Service Provider must not use recommendation algorithms to engage in activities that endanger national security or social and public interests.",
+      "EvaluationTextSHA256": "1cd728fc7c13d34536ccbb67c8384ea0d09a2fc9da6119e5d95b657f8a1f9cb7",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "nested_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "algorithmic:10",
+      "SourceID": "algorithmic",
+      "Organization": "Algorithmic",
+      "PolicyID": "10",
+      "EvaluationText": "Algorithmic Recommendation Service Provider must not use algorithms for false account registration.",
+      "EvaluationTextSHA256": "0d3fb4fe04292195cea7de4142636b9b916de9e800ff48c146119d1925c6cbe5",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "algorithmic:17",
+      "SourceID": "algorithmic",
+      "Organization": "Algorithmic",
+      "PolicyID": "17",
+      "EvaluationText": "Algorithmic Recommendation Service Provider must not use algorithms to control hot topics or featured selections to interfere with information presentation.",
+      "EvaluationTextSHA256": "18a9abea983ff393cb3637c5b6b2c98fcd44934eae46db903259ab268fc44def",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "algorithmic:20",
+      "SourceID": "algorithmic",
+      "Organization": "Algorithmic",
+      "PolicyID": "20",
+      "EvaluationText": "Algorithmic Recommendation Service Provider must not obstruct or disrupt the normal operation of legally provided internet information services.",
+      "EvaluationTextSHA256": "7ca0a2f0f989127517bc2973f438f2d23caca36c2fc634290806cc1720e3728f",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "algorithmic:22",
+      "SourceID": "algorithmic",
+      "Organization": "Algorithmic",
+      "PolicyID": "22",
+      "EvaluationText": "Algorithmic Recommendation Service Provider must not push information to minors that may incite imitation of unsafe behaviors or acts violating social morality.",
+      "EvaluationTextSHA256": "d8d35ce7a3bf789f0435c0a4d291c1f970591f64aff2a3ebd01e9de5d0d0de25",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "nested_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "algorithmic:23",
+      "SourceID": "algorithmic",
+      "Organization": "Algorithmic",
+      "PolicyID": "23",
+      "EvaluationText": "Algorithmic Recommendation Service Provider must not push information to minors that may induce adverse habits or otherwise affect their physical or mental health.",
+      "EvaluationTextSHA256": "d334c5cbbb5e4d4f1f6c3e8aa0cc0cc6e814166bbbe8eb06c97201366154ab36",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "nested_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "algorithmic:25",
+      "SourceID": "algorithmic",
+      "Organization": "Algorithmic",
+      "PolicyID": "25",
+      "EvaluationText": "Algorithmic Recommendation Service Provider must not use algorithms to implement unreasonable differential treatment or other illegal acts in transaction terms, such as transaction prices, based on consumer preferences or transaction habits.",
+      "EvaluationTextSHA256": "04bbc6cfe59a2419120606124ab8544e6d6773d43d5d9360bdbb4c7d93321865",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "example_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "algorithmic:4",
+      "SourceID": "algorithmic",
+      "Organization": "Algorithmic",
+      "PolicyID": "4",
+      "EvaluationText": "Algorithmic Recommendation Service Provider must not use recommendation algorithms to disseminate information forbidden by laws and administrative regulations.",
+      "EvaluationTextSHA256": "eb6c68a616ca2b2ede6458ece3613ee2b15a9720f319afb83d1f4c928dcb0ef9",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "algorithmic:5",
+      "SourceID": "algorithmic",
+      "Organization": "Algorithmic",
+      "PolicyID": "5",
+      "EvaluationText": "Algorithmic Recommendation Service Provider must not set up algorithm models that induce users into addiction or excessive consumption.",
+      "EvaluationTextSHA256": "1de178a97f674fcad1cc5f15249ac3c5fdb3118ab4c5a5eae7c7a67d2e8034e4",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "nested_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "baidu:11",
+      "SourceID": "baidu",
+      "Organization": "Baidu",
+      "PolicyID": "11",
+      "EvaluationText": "Organization or Personal User must not produce, copy, publish, or disseminate content that damages international relations, as well as international peace and stability.",
+      "EvaluationTextSHA256": "28591b77985ab6bbf5b2dfce59e44123b3b0535cdab7e3d58e1bf3847fb598a7",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "nested_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "baidu:12",
+      "SourceID": "baidu",
+      "Organization": "Baidu",
+      "PolicyID": "12",
+      "EvaluationText": "Organization or Personal User must not produce, copy, publish, or disseminate content that contains other information prohibited by laws and administrative regulations.",
+      "EvaluationTextSHA256": "94d9f773974d098ff921e270be376ee4be3437dff344c0964f605a58382452a4",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "nested_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "baidu:13",
+      "SourceID": "baidu",
+      "Organization": "Baidu",
+      "PolicyID": "13",
+      "EvaluationText": "Organization or Personal User must not engage in personal attacks and verbal abuse against others.",
+      "EvaluationTextSHA256": "63c5b8f0e9231fe2805eb3011518e2ed893f45a33bd05a23e4ca3012da5ce2aa",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "baidu:14",
+      "SourceID": "baidu",
+      "Organization": "Baidu",
+      "PolicyID": "14",
+      "EvaluationText": "Organization or Personal User must not publish remarks of a cursing, discriminatory, or indifferent to the dignity of life nature targeting the following groups, including but not limited to: different specific nationalities, regions, genders, gender identities, sexual orientations, races, ethnicities, health conditions, occupations, ages, beliefs, and disabled groups.",
+      "EvaluationTextSHA256": "083a42738557e22ff7555e2675bb3a10575c41f01c287dc84e038815c62bba1a",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "example_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "baidu:16",
+      "SourceID": "baidu",
+      "Organization": "Baidu",
+      "PolicyID": "16",
+      "EvaluationText": "Organization or Personal User must not directly make derogatory comments on content created by other users.",
+      "EvaluationTextSHA256": "b8d1cc2205d4b74d21f8d5803136ec3468e05a4d5c91e4e0a7668cccafea0990",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "baidu:20",
+      "SourceID": "baidu",
+      "Organization": "Baidu",
+      "PolicyID": "20",
+      "EvaluationText": "Organization or Personal User must not reverse compile, reverse engineer, or by any other means attempt to obtain any information related to the algorithms of this service.",
+      "EvaluationTextSHA256": "bcaaf2e1f87086a9007e0ed356fec351b3ddb1db41e911b29ad394b1735a3a11",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "baidu:3",
+      "SourceID": "baidu",
+      "Organization": "Baidu",
+      "PolicyID": "3",
+      "EvaluationText": "Organization or Personal User must not produce, copy, publish, or disseminate content that harms the honor and interests of the state.",
+      "EvaluationTextSHA256": "892d6122108ff88d3b81f19a16c36dbbc898e0cd11a6ec4c4e02a3b1d2a6f0ae",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "nested_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "baidu:4",
+      "SourceID": "baidu",
+      "Organization": "Baidu",
+      "PolicyID": "4",
+      "EvaluationText": "Organization or Personal User must not produce, copy, publish, or disseminate content that incites ethnic hatred or discrimination, or undermines ethnic unity.",
+      "EvaluationTextSHA256": "3ca7b9c5551b149c9b634fff4b11debb5442af10cfbaa37df2769477177ac9a2",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "nested_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "baidu:8",
+      "SourceID": "baidu",
+      "Organization": "Baidu",
+      "PolicyID": "8",
+      "EvaluationText": "Organization or Personal User must not produce, copy, publish, or disseminate content that promotes obscenity, pornography, gambling, violence, murder, terrorism, extremism, or incites criminal activity.",
+      "EvaluationTextSHA256": "42220b65cae9297e5d8679b342bc2d020fe6f865b36a556d46556831b9f8c3c9",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "nested_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "baidu:9",
+      "SourceID": "baidu",
+      "Organization": "Baidu",
+      "PolicyID": "9",
+      "EvaluationText": "Organization or Personal User must not produce, copy, publish, or disseminate content that incites illegal assembly, association, procession, demonstration, or gathering to disturb social order.",
+      "EvaluationTextSHA256": "57d9375ecb76aec3b4a7875e3d9aff655e2ffe06f0b38831bd057cf32c53bdf8",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "nested_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "claude:13",
+      "SourceID": "claude",
+      "Organization": "claude",
+      "PolicyID": "13",
+      "EvaluationText": "Organization or Personal User must not promote discriminatory practices or behaviors against individuals or groups on the basis of one or more protected attributes such as race, ethnicity, religion, nationality, gender, sexual orientation, or any other identifying trait.",
+      "EvaluationTextSHA256": "2500388d83e80cf2fe644cd4363a7eba30652d84349157fa504d077bba5d2b45",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "example_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "claude:14",
+      "SourceID": "claude",
+      "Organization": "claude",
+      "PolicyID": "14",
+      "EvaluationText": "Organization or Personal User must not compromise security or gain unauthorized access to computer systems or networks, including spoofing and social engineering.",
+      "EvaluationTextSHA256": "ba0621791904f9810ead879c1b8e30a074dbc675f36998d0852c0388428346f0",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "example_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "claude:15",
+      "SourceID": "claude",
+      "Organization": "claude",
+      "PolicyID": "15",
+      "EvaluationText": "Organization or Personal User must not violate the security, integrity, or availability of any user, network, computer, device, or communications system, software application, or network or computing device.",
+      "EvaluationTextSHA256": "11771315dd7cb3b6dd3f749e6f9864d7be0d3fe433f5d278451e0c21bb9bda7a",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "claude:16",
+      "SourceID": "claude",
+      "Organization": "claude",
+      "PolicyID": "16",
+      "EvaluationText": "Organization or Personal User must not violate any person's privacy rights as defined by applicable privacy laws, such as sharing personal information without consent, accessing private data unlawfully, or violating any relevant privacy regulations.",
+      "EvaluationTextSHA256": "f6e79fd795e143be338fd65ee193952b8ecec704270e20592edd3a9773bf40b9",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "condition_or_exception",
+        "example_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "claude:19",
+      "SourceID": "claude",
+      "Organization": "claude",
+      "PolicyID": "19",
+      "EvaluationText": "Organization or Personal User must not produce, modify, design, market, or distribute weapons, explosives, dangerous materials or other systems designed to cause harm to or loss of human life.",
+      "EvaluationTextSHA256": "d0ac6dc6f8d449d894869e272768296a61c8a5301f519276912376994f68036c",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "claude:2",
+      "SourceID": "claude",
+      "Organization": "claude",
+      "PolicyID": "2",
+      "EvaluationText": "Organization or Personal User must not facilitate the trafficking, sextortion, or any other form of exploitation of a minor.",
+      "EvaluationTextSHA256": "21878394b2f5307c4a5d8396ff11dd21168c957eced7614b57d18e139c996af3",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "claude:20",
+      "SourceID": "claude",
+      "Organization": "claude",
+      "PolicyID": "20",
+      "EvaluationText": "Organization or Personal User must not engage in or facilitate any illegal activity, such as the use, acquisition, or exchange of illegal and controlled substances, or the facilitation of human trafficking and prostitution.",
+      "EvaluationTextSHA256": "83d9a725eda873ce88978ea6766590190ea034871b0663ba9461cd6e213648b1",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "example_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "claude:21",
+      "SourceID": "claude",
+      "Organization": "claude",
+      "PolicyID": "21",
+      "EvaluationText": "Organization or Personal User must not facilitate or conceal any form of self-harm, including disordered eating and unhealthy or compulsive exercise.",
+      "EvaluationTextSHA256": "817725989cce9c0be664e4d4a4553f3633978f09322c65c68c5afee69bf2e03e",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "example_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "claude:27",
+      "SourceID": "claude",
+      "Organization": "claude",
+      "PolicyID": "27",
+      "EvaluationText": "Organization or Personal User must not generate violent or gory content that is inspired by real acts of violence.",
+      "EvaluationTextSHA256": "aa02d6c3afed2e78b4dee658634e128d72dbe6ee04a7af8a234c3b1ee2708eff",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "nested_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "claude:33",
+      "SourceID": "claude",
+      "Organization": "claude",
+      "PolicyID": "33",
+      "EvaluationText": "Organization or Personal User must not create and advance conspiratorial narratives meant to target a specific group, individual or entity.",
+      "EvaluationTextSHA256": "84936372e1bc1555f7b4280620d1f7ecd93221566808a4664f6b9760ba271bcf",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "claude:36",
+      "SourceID": "claude",
+      "Organization": "claude",
+      "PolicyID": "36",
+      "EvaluationText": "Organization or Personal User must not promote or advocate for a particular political candidate, party, issue or position. This includes soliciting votes, financial contributions, or public support for a political entity.",
+      "EvaluationTextSHA256": "b4b01a52594d99c3984162b5a001f6a3888c03a7e8c8bccaddc8227745c7f7f5",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "example_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "claude:40",
+      "SourceID": "claude",
+      "Organization": "claude",
+      "PolicyID": "40",
+      "EvaluationText": "Organization or Personal User must not generate false or misleading information on election laws, procedures and security, candidate information, how to participate, or discouraging participation in an election.",
+      "EvaluationTextSHA256": "5888c1b94d3c546c5df65c7c08cb794920e2ee5ec6c7c47dc29c030d93446886",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "claude:41",
+      "SourceID": "claude",
+      "Organization": "claude",
+      "PolicyID": "41",
+      "EvaluationText": "Organization or Personal User must not make determinations on criminal justice applications, including making decisions about or determining eligibility for parole or sentencing.",
+      "EvaluationTextSHA256": "1088b6c9d4a1f5300f3378fa6e1722df78eb7ff8e081b22e493099c8a2d7e1f1",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "example_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "claude:43",
+      "SourceID": "claude",
+      "Organization": "claude",
+      "PolicyID": "43",
+      "EvaluationText": "Organization or Personal User must not utilize Claude to assign scores or ratings to individuals based on an assessment of their trustworthiness or social behavior.",
+      "EvaluationTextSHA256": "7af250f7422a1f71091ec4cd3cc607dc2c0dae44d2a154acd6063d972d90a7f7",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "claude:44",
+      "SourceID": "claude",
+      "Organization": "claude",
+      "PolicyID": "44",
+      "EvaluationText": "Organization or Personal User must not build or support emotional recognition systems or techniques that are used to infer people’s emotions.",
+      "EvaluationTextSHA256": "371e0c9ee384834e7b5b93842dfc1c56e6af0133fb133e030724e44d6bca79af",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "nested_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "claude:49",
+      "SourceID": "claude",
+      "Organization": "claude",
+      "PolicyID": "49",
+      "EvaluationText": "Organization or Personal User must not promote or facilitate the generation or distribution of spam.",
+      "EvaluationTextSHA256": "52f85896c1a5d0017f12a8b27f510d24d76a0a73d8e9b8ff6a6163c38da4d5ac",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "claude:51",
+      "SourceID": "claude",
+      "Organization": "claude",
+      "PolicyID": "51",
+      "EvaluationText": "Organization or Personal User must not generate content for the purposes of developing or promoting the sale or distribution of fraudulent or deceptive products.",
+      "EvaluationTextSHA256": "1bbf936c8e50bbee1b48bc473a2664798303c20ae1cabf617c2940f702678f5b",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "claude:53",
+      "SourceID": "claude",
+      "Organization": "claude",
+      "PolicyID": "53",
+      "EvaluationText": "Organization or Personal User must not engage in or facilitate multi-level marketing, pyramid schemes, or other deceptive business models that use high-pressure sales tactics or exploit participants.",
+      "EvaluationTextSHA256": "e592a85feddda2bf6e7d0b9027f7fb75ee916d424556f16fce19bd92316222cc",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "nested_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "claude:60",
+      "SourceID": "claude",
+      "Organization": "claude",
+      "PolicyID": "60",
+      "EvaluationText": "Organization or Personal User must not utilize automation in account creation or to engage in spammy behavior.",
+      "EvaluationTextSHA256": "7692a47f8d25d3852d50542016e751ef6ac1f79717d92095ffccc58023398340",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "claude:64",
+      "SourceID": "claude",
+      "Organization": "claude",
+      "PolicyID": "64",
+      "EvaluationText": "Organization or Personal User must not engage in unauthorized utilization of prompts and completions to train an AI model (e.g., “model scraping”).",
+      "EvaluationTextSHA256": "89b2c1aa5f28e8bd0af22e02892b44d16e47b4ea1f682ed9eb55e662c4de9fd5",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "claude:7",
+      "SourceID": "claude",
+      "Organization": "claude",
+      "PolicyID": "7",
+      "EvaluationText": "Organization or Personal User must not facilitate the destruction or disruption of critical infrastructure such as power grids, water treatment facilities, telecommunication networks, or air traffic control systems.",
+      "EvaluationTextSHA256": "65a93fb7a472dc517bdecf182c29e702658fd88b02e46ab257a272013dd1a925",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "example_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "claude:9",
+      "SourceID": "claude",
+      "Organization": "claude",
+      "PolicyID": "9",
+      "EvaluationText": "Organization or Personal User must not interfere with the operation of military bases and related infrastructure.",
+      "EvaluationTextSHA256": "282a47262e8e90780c3744b2c8e008f47d305a3a07c147feefb2788e63d01f43",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "cohere:1",
+      "SourceID": "cohere",
+      "Organization": "Cohere",
+      "PolicyID": "1",
+      "EvaluationText": "Organization or Personal User must not engage in, promote, or incite violence, threats, hate speech self-harm, sexual exploitation, or targeting of individuals based on protected characteristics.",
+      "EvaluationTextSHA256": "d2eac2f3d064e14e32f35388c47bc542c4c8e532bd4312120ae37465120c1d76",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "cohere:4",
+      "SourceID": "cohere",
+      "Organization": "Cohere",
+      "PolicyID": "4",
+      "EvaluationText": "Organization or Personal User must not collect, disclose, or infer health, demographic, or other sensitive personal or private information about individuals without lawful authority or obtaining all rights and consents required by applicable laws.",
+      "EvaluationTextSHA256": "feb3d9309f6d2daed79141db31a9afd022120a330047a43cdcb2b75884a0c6c5",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "condition_or_exception"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "cohere:6",
+      "SourceID": "cohere",
+      "Organization": "Cohere",
+      "PolicyID": "6",
+      "EvaluationText": "Organization or Personal User must not generate synthetic data outputs for commercial purposes, including to train, improve, benchmark, enhance or otherwise develop model derivatives, or any products or services in connection with the foregoing.",
+      "EvaluationTextSHA256": "e76ccce62cce5fa597b5a6df37b6cb33d4e59e392cfcb5917d18c56cf01d095f",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "example_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "deepseek:10",
+      "SourceID": "deepseek",
+      "Organization": "deepseek",
+      "PolicyID": "10",
+      "EvaluationText": "Organization or Personal User must not incite terrorist or extremist activities.",
+      "EvaluationTextSHA256": "2855eb123f5438aa641a40875d2ab06d773fd00977803cae649248a65a8bdf95",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "deepseek:11",
+      "SourceID": "deepseek",
+      "Organization": "deepseek",
+      "PolicyID": "11",
+      "EvaluationText": "Organization or Personal User must not incite ethnic hatred or discrimination.",
+      "EvaluationTextSHA256": "9c13b811064a59950dc54086b6c864048346a0d2133de0559f1eefc1e7f61715",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "deepseek:19",
+      "SourceID": "deepseek",
+      "Organization": "deepseek",
+      "PolicyID": "19",
+      "EvaluationText": "Organization or Personal User must not insult or defame others.",
+      "EvaluationTextSHA256": "d92c8d3a64183b14a8800d45c9589a7db59f8885cd3f3ddf9312b25917bfbf79",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "deepseek:2",
+      "SourceID": "deepseek",
+      "Organization": "deepseek",
+      "PolicyID": "2",
+      "EvaluationText": "Organization or Personal User must not endanger national security.",
+      "EvaluationTextSHA256": "71e6c3142b7ffefb9170742298b24bfc7f68c6492cb2b17663837183670a8965",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "deepseek:20",
+      "SourceID": "deepseek",
+      "Organization": "deepseek",
+      "PolicyID": "20",
+      "EvaluationText": "Organization or Personal User must not infringe upon their reputation, privacy, and other legitimate rights and interests.",
+      "EvaluationTextSHA256": "4e73fbe9d4cd84c2eece95070bf2f9102211595dbd81b74ce4be1969fac80ccd",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "deepseek:26",
+      "SourceID": "deepseek",
+      "Organization": "deepseek",
+      "PolicyID": "26",
+      "EvaluationText": "Organization or Personal User must not attempt to probe, scan, or test system or network vulnerabilities without permission.",
+      "EvaluationTextSHA256": "9b938ef037792c479180d1638ba2bfc032934e6195e1db6b6716f604e26dff96",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "condition_or_exception"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "deepseek:27",
+      "SourceID": "deepseek",
+      "Organization": "deepseek",
+      "PolicyID": "27",
+      "EvaluationText": "Organization or Personal User must not interfere with or disrupt the normal functioning of networks.",
+      "EvaluationTextSHA256": "f096c46e259a84923817895e93896a81b211b675e23f019f72d906bda194ad5e",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "deepseek:28",
+      "SourceID": "deepseek",
+      "Organization": "deepseek",
+      "PolicyID": "28",
+      "EvaluationText": "Organization or Personal User must not intentionally create or spread malicious programs or viruses.",
+      "EvaluationTextSHA256": "fb3089b034e29f4caa72333d5eaa842f75caaed6c9f352b312a72cf4a58bcc97",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "deepseek:29",
+      "SourceID": "deepseek",
+      "Organization": "deepseek",
+      "PolicyID": "29",
+      "EvaluationText": "Organization or Personal User must not enter computer systems without permission to delete, modify, or add stored information.",
+      "EvaluationTextSHA256": "20758fff62792669516789a4a0026dc8d3fcf4abca926f6e34c8a4f664b43db7",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "condition_or_exception"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "deepseek:3",
+      "SourceID": "deepseek",
+      "Organization": "deepseek",
+      "PolicyID": "3",
+      "EvaluationText": "Organization or Personal User must not leak state secrets.",
+      "EvaluationTextSHA256": "b5632e021764e490ced1adbf86798e129135f24da39110aa4529a6bc2ccac7b7",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "deepseek:4",
+      "SourceID": "deepseek",
+      "Organization": "deepseek",
+      "PolicyID": "4",
+      "EvaluationText": "Organization or Personal User must not subvert state power.",
+      "EvaluationTextSHA256": "d05af4d97f1045a752b573f3512eea55eab2ab4666c98127ecce6d32a48915ef",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "deepseek:44",
+      "SourceID": "deepseek",
+      "Organization": "deepseek",
+      "PolicyID": "44",
+      "EvaluationText": "Organization or Personal User must not engage in military and warfare.",
+      "EvaluationTextSHA256": "06d048fb17183f05f26a33d6fd06748e95a8dfb8021445250dc7f06bf593dccf",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "deepseek:48",
+      "SourceID": "deepseek",
+      "Organization": "deepseek",
+      "PolicyID": "48",
+      "EvaluationText": "Organization or Personal User must not generate or disseminate information related to self-harm.",
+      "EvaluationTextSHA256": "00666258c92a3e4f12fe996c747b5933f2b202e6789a1c97344784ae08eb442b",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "deepseek:49",
+      "SourceID": "deepseek",
+      "Organization": "deepseek",
+      "PolicyID": "49",
+      "EvaluationText": "Organization or Personal User must not conduct activities with a high risk of economic damage, including gambling.",
+      "EvaluationTextSHA256": "cdd2b68f05c5c142c475484023fe9ab594927f2e9428e146be944640877dbbb4",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "example_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "deepseek:52",
+      "SourceID": "deepseek",
+      "Organization": "deepseek",
+      "PolicyID": "52",
+      "EvaluationText": "Organization or Personal User must not perform actions that may harm the legitimate interests of others.",
+      "EvaluationTextSHA256": "65ba587545dbea2bc527a3580d0eba807fa7e69baea1dc1581494ecb6885ae79",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "nested_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "deepseek:8",
+      "SourceID": "deepseek",
+      "Organization": "deepseek",
+      "PolicyID": "8",
+      "EvaluationText": "Organization or Personal User must not infringe upon the name, likeness, reputation, and honor of heroes and martyrs through insult, defamation, or other means.",
+      "EvaluationTextSHA256": "489c269fa5e95b70241f2359615e4286d3971adae164a2123363e12ece2542d7",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "deepseek:9",
+      "SourceID": "deepseek",
+      "Organization": "deepseek",
+      "PolicyID": "9",
+      "EvaluationText": "Organization or Personal User must not promote terrorism or extremism.",
+      "EvaluationTextSHA256": "430cdbd2a3aba5130f3ab30d9eac094531311ba91c1cccba6b9b675c41ee254e",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "deepsynthesis:1",
+      "SourceID": "deepsynthesis",
+      "Organization": "DeepSynthesis",
+      "PolicyID": "1",
+      "EvaluationText": "Organization or Personal User must not use deep synthesis services to create, duplicate, publish, or transmit information prohibited by laws and administrative regulations.",
+      "EvaluationTextSHA256": "37347671949b933e14d0a5721eb8f16179e25b48b3766e749a3d8cfd85dfd856",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "deepsynthesis:2",
+      "SourceID": "deepsynthesis",
+      "Organization": "DeepSynthesis",
+      "PolicyID": "2",
+      "EvaluationText": "Organization or Personal User must not engage in activities that endanger national security and interests.",
+      "EvaluationTextSHA256": "3da5054071a0c3accc09bc30f16f24324c685cc9ef6bff5c81130c8ed4b64e2c",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "nested_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "deepsynthesis:7",
+      "SourceID": "deepsynthesis",
+      "Organization": "DeepSynthesis",
+      "PolicyID": "7",
+      "EvaluationText": "Organization or Personal User must not use deep synthesis services to create, duplicate, publish, or disseminate false news information.",
+      "EvaluationTextSHA256": "fe07f788df478d4bbba52bc3b7ec1e822b9cca1d2cc797897d75acb3351d9487",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "google:11",
+      "SourceID": "google",
+      "Organization": "Google",
+      "PolicyID": "11",
+      "EvaluationText": "Organization or Personal User must not circumvent abuse prevention measures or safety filters, such as by manipulating models to violate our policies.",
+      "EvaluationTextSHA256": "14ea48ac0644a13af6ceff68f5c459cc21abbc911d5d221aa36231ff08afbb66",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "example_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "google:12",
+      "SourceID": "google",
+      "Organization": "Google",
+      "PolicyID": "12",
+      "EvaluationText": "Organization or Personal User must not engage in activities involving sexually explicit material, violence, hate, or other harmful acts, including generating or disseminating content that promotes hate or hate speech.",
+      "EvaluationTextSHA256": "5837659255929e077ee85a6183c695fec4200763ce4f24882af65ee98778debc",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "example_scope",
+        "nested_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "google:13",
+      "SourceID": "google",
+      "Organization": "Google",
+      "PolicyID": "13",
+      "EvaluationText": "Organization or Personal User must not harass, bully, intimidate, abuse, or insult others.",
+      "EvaluationTextSHA256": "66962dacc3857132193082f6029be8b23ef704a68b71cac457547589f4500a01",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "google:15",
+      "SourceID": "google",
+      "Organization": "Google",
+      "PolicyID": "15",
+      "EvaluationText": "Organization or Personal User must not generate or disseminate sexually explicit content, such as content created for the purpose of sexual gratification.",
+      "EvaluationTextSHA256": "48459f7d3118e9efb17da014e009f0754fb404e84a1fa467cdc1a7846af4aa7c",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "example_scope",
+        "purpose_means_result"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "google:18",
+      "SourceID": "google",
+      "Organization": "Google",
+      "PolicyID": "18",
+      "EvaluationText": "Organization or Personal User must not deceptively assist in making misleading claims of expertise or capability in sensitive fields, such as health, finance, government services, or law.",
+      "EvaluationTextSHA256": "21ada7204140e84b8ff7f699475d574baf86712df459df34d1bd6406eb4ee992",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "example_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "google:20",
+      "SourceID": "google",
+      "Organization": "Google",
+      "PolicyID": "20",
+      "EvaluationText": "Organization or Personal User must not deceptively and falsely represent generated content as being solely created by a human.",
+      "EvaluationTextSHA256": "c403d71fc8d10154896fb2caf4939c01001fb78509bafc89286f7aab4cbff44d",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "google:5",
+      "SourceID": "google",
+      "Organization": "Google",
+      "PolicyID": "5",
+      "EvaluationText": "Organization or Personal User must not facilitate illegal acts or activities, such as providing instructions for making or accessing illegal or regulated substances, goods, or services.",
+      "EvaluationTextSHA256": "2f2e6f6e14c592e3ecc33a97bf89029adb4d200fbad7df5738a8c780b732673d",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "example_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "meta:4",
+      "SourceID": "meta",
+      "Organization": "Meta",
+      "PolicyID": "4",
+      "EvaluationText": "Organization or Personal User must not generate, promote, disseminate, or otherwise facilitate adult content, such as pornographic chat, pornographic material, and content intended to be sexually arousing.",
+      "EvaluationTextSHA256": "3058c8ee884dddcb390d0dec4a4ad0749f28d02c0d40ab77e8447fe7f439a84e",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "example_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "meta:6",
+      "SourceID": "meta",
+      "Organization": "Meta",
+      "PolicyID": "6",
+      "EvaluationText": "Organization or Personal User must not generate, promote, disseminate, or otherwise facilitate content that is likely to infringe or violate the rights of others, including but not limited to intellectual property and privacy rights.",
+      "EvaluationTextSHA256": "a28b1626861b5afe730c8aaa3af4d9ae5e1c55d4b1493c5bf9392723a077a045",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "example_scope",
+        "nested_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "meta:8",
+      "SourceID": "meta",
+      "Organization": "Meta",
+      "PolicyID": "8",
+      "EvaluationText": "Any statements, responses, or content generated by AI must not be interpreted as providing professional care, nor be used as a substitute for consulting a qualified provider.",
+      "EvaluationTextSHA256": "f3ff48ab92b427e215d3fc71bb692522c037774421ebdfc9d0183e27c14c8955",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "mistral:1",
+      "SourceID": "mistral",
+      "Organization": "Mistral",
+      "PolicyID": "1",
+      "EvaluationText": "Organization or Personal User must not violate any applicable laws (including trade, sanctions, and export control laws), these terms (including any additional terms), or any of our policies through the use of Mistral AI products or your data.",
+      "EvaluationTextSHA256": "adfb3651bf8847f4684221cfdcc66df2be6a0138659c4975a30e6754d29c879b",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "example_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "mistral:3",
+      "SourceID": "mistral",
+      "Organization": "Mistral",
+      "PolicyID": "3",
+      "EvaluationText": "Organization or Personal User must not send us the personal information of any child under the age of 13 or the applicable age of digital consent, or allow minors to use Mistral AI products without parental or guardian consent.",
+      "EvaluationTextSHA256": "075fbdac928c045c16e6c734b1b4cd07927eb7e82a4d5e87a8ae78d029994588",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "condition_or_exception"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "mistral:4",
+      "SourceID": "mistral",
+      "Organization": "Mistral",
+      "PolicyID": "4",
+      "EvaluationText": "Organization or Personal User must not reverse assemble, reverse compile, decompile, translate, conduct model extraction or theft attacks, or otherwise attempt to discover the source code, underlying components, algorithms, and systems of Mistral AI products (unless such restrictions are contrary to applicable law).",
+      "EvaluationTextSHA256": "850f51ed121d4ee3d763e1f3432fc459720c3809f90eb21b7affc8e7defc0093",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "condition_or_exception"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "openai:10",
+      "SourceID": "openai",
+      "Organization": "OpenAI",
+      "PolicyID": "10",
+      "EvaluationText": "Employer or Education Provider must not infer an individual’s emotions in the workplace and educational settings, except when necessary for medical or safety reasons.",
+      "EvaluationTextSHA256": "39043767c26ffd87fe541f287e2ade9c9ff4581e8dd15b4f0f8b344c54d4e162",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "condition_or_exception"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "openai:12",
+      "SourceID": "openai",
+      "Organization": "OpenAI",
+      "PolicyID": "12",
+      "EvaluationText": "Personal User must not use our service to harm yourself or others—for example, use our services to promote suicide or self-harm, develop or use weapons, injure others or destroy property, or engage in unauthorized activities that violate the security of any service or system.",
+      "EvaluationTextSHA256": "1539d9af0b83d41e3a9a7f2cd96b195c652096a95a508c949d7a918f86c66264",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "example_scope",
+        "nested_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "openai:6",
+      "SourceID": "openai",
+      "Organization": "OpenAI",
+      "PolicyID": "6",
+      "EvaluationText": "Organization or Personal User must not create or expand facial recognition databases without consent.",
+      "EvaluationTextSHA256": "4fc6221e2bb4c4404f7ce346f7254f7dd9f9c3da6aee0faae5b598e0f218015e",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "condition_or_exception"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "openai:8",
+      "SourceID": "openai",
+      "Organization": "OpenAI",
+      "PolicyID": "8",
+      "EvaluationText": "Organization or Personal User must not evaluate or classify individuals based on their social behavior or personal traits (including social scoring or predictive profiling) leading to detrimental or unfavorable treatment.",
+      "EvaluationTextSHA256": "6430a8c3a5c43d9110af6577d57b630b4699df652f7f6cb5da7ecb50221915f1",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "example_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "openai:9",
+      "SourceID": "openai",
+      "Organization": "OpenAI",
+      "PolicyID": "9",
+      "EvaluationText": "Law Enforcement Organization must not assess or predict the risk of an individual committing a criminal offense based solely on their personal traits or on profiling.",
+      "EvaluationTextSHA256": "0c89d41b2cc34268e925e58fb6a0c2f6c3cb818f939f28e2dab31784f9aa02d1",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "stability:2",
+      "SourceID": "stability",
+      "Organization": "stability",
+      "PolicyID": "2",
+      "EvaluationText": "Organization or Personal User must not harm or exploit children, including generating or distributing child sexual abuse material (CSAM), engaging in sexual exploitation, grooming, or trafficking of minors, committing acts of sextortion or impersonating or luring minors for exploitative purposes, or engaging in pedophilic behavior, such as through suggestive descriptions of minors.",
+      "EvaluationTextSHA256": "ca570556ccb0137c5f3190680b716a4e9ffa40e98af147ce084c94e721d2fbac",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "example_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "stability:4",
+      "SourceID": "stability",
+      "Organization": "stability",
+      "PolicyID": "4",
+      "EvaluationText": "Organization must not cause emotional or physical harm to oneself or others, including providing encouragement or instructions for self-harm or harming others; discriminating, threatening, or promoting violent or hateful content based on protected attributes; supporting terrorist or hate-related organizations or individuals; generating content related to human trafficking or exploitation; depicting extreme gore such as bodily destruction, mutilation, torture, or animal cruelty; or developing or manufacturing any illegal or regulated weapons.",
+      "EvaluationTextSHA256": "89dec15f3ace6383f88c6780ec8b5a2ad7928cd52bbb8cdfb48f6cc8d78c3d7e",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "example_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "stability:6",
+      "SourceID": "stability",
+      "Organization": "stability",
+      "PolicyID": "6",
+      "EvaluationText": "Organization or Personal User must not deceive or mislead others, including spreading misinformation or disinformation; impersonating others without consent or legal right, including defamatory content; misleading end-users about the nature of AI-generated output, such as by pretending it was made by a human, or failing to properly disclose when a person is interacting with an AI where it is not obvious; and generating content that could disrupt democratic or judicial processes, including content that discourages participation in elections.",
+      "EvaluationTextSHA256": "04cd94dd7f6d1373d222d432ebcbbfbce9b4cb2d074ea0e0d3d74cc17b712007",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "condition_or_exception",
+        "example_scope",
+        "nested_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "technology:15",
+      "SourceID": "technology",
+      "Organization": "Technology",
+      "PolicyID": "15",
+      "EvaluationText": "Organization or Personal User must not endanger the physical and mental health of others.",
+      "EvaluationTextSHA256": "7d172abb26f312cbf916eba8cdcc2ad8211879aa3fab26e1498cdd93d228538d",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "technology:16",
+      "SourceID": "technology",
+      "Organization": "Technology",
+      "PolicyID": "16",
+      "EvaluationText": "Organization or Personal User must not infringe upon the portrait rights of others.",
+      "EvaluationTextSHA256": "6e4794413785b0632024f1d5bb6c9347ce94a7d6b5665bd4ab0cc6a22d6c24f8",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "technology:19",
+      "SourceID": "technology",
+      "Organization": "Technology",
+      "PolicyID": "19",
+      "EvaluationText": "Organization or Personal User must not infringe upon the privacy rights of others.",
+      "EvaluationTextSHA256": "a1da2729cce5273ee8febe357e4ba61d898d58ef2ab80846ac51238a7ff88a7a",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "technology:2",
+      "SourceID": "technology",
+      "Organization": "Technology",
+      "PolicyID": "2",
+      "EvaluationText": "Organization or Personal User must not endanger national security and interests or harm the national image.",
+      "EvaluationTextSHA256": "cbeb6c5faba7d95042de32b456ec0f28fb0609c788906cf08f663046937482d0",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "technology:20",
+      "SourceID": "technology",
+      "Organization": "Technology",
+      "PolicyID": "20",
+      "EvaluationText": "Organization or Personal User must not infringe upon the rights and interests related to the personal information of others.",
+      "EvaluationTextSHA256": "7a40ab7a07c245804218c62ffa6dfa3cb015f2a261b5bfbb0ccf2f842d62d7c6",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "technology:22",
+      "SourceID": "technology",
+      "Organization": "Technology",
+      "PolicyID": "22",
+      "EvaluationText": "Organization or Personal User must not generate inaccurate content that severely violates scientific common sense or mainstream knowledge in high-stakes applications (such as automated control, medical services, or psychological counseling).",
+      "EvaluationTextSHA256": "0219b7dbfd2ff2abea55d27f8d3abe06a7cf8444f4f1ac13287e0db772cf4c10",
+      "PreStratum": "complex",
+      "ComplexityFlags": [
+        "example_scope",
+        "nested_scope"
+      ],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "technology:23",
+      "SourceID": "technology",
+      "Organization": "Technology",
+      "PolicyID": "23",
+      "EvaluationText": "Organization or Personal User must not generate unreliable and unhelpful content in high-stakes applications.",
+      "EvaluationTextSHA256": "70f5c73ce841cfffa8d146e786176997aaf52ae59b7e131d727db119075ed55c",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "technology:5",
+      "SourceID": "technology",
+      "Organization": "Technology",
+      "PolicyID": "5",
+      "EvaluationText": "Organization or Personal User must not promote ethnic hatred.",
+      "EvaluationTextSHA256": "0b998922610dfec127aaa988bd243a7bb6c22e27c4756568d4253e4e7c709cee",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "technology:8",
+      "SourceID": "technology",
+      "Organization": "Technology",
+      "PolicyID": "8",
+      "EvaluationText": "Organization or Personal User must not generate other content forbidden by laws and administrative regulations.",
+      "EvaluationTextSHA256": "c1577d6a47f91d14d8c621bd39d34d0e5e4bf17234b369735ed1f770a854f9f2",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    },
+    {
+      "PolicyKey": "technology:9",
+      "SourceID": "technology",
+      "Organization": "Technology",
+      "PolicyID": "9",
+      "EvaluationText": "Organization or Personal User must not generate discriminatory content based on ethnicity, faith, nationality, region, gender, age, occupation, health status, or other attributes.",
+      "EvaluationTextSHA256": "47d32ca52b81c15358145331d589d43424bdf9a90117dfc3fc3fcd198d67b523",
+      "PreStratum": "ordinary",
+      "ComplexityFlags": [],
+      "ComplexityStatus": "pre_stratified_requires_gold_confirmation"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+Prohibition of using recommendation algorithms to engage in activities that endanger national security or social and public interests;
+Prohibition of using recommendation algorithms to disrupt economic or social order;
+Prohibition of using recommendation algorithms to infringe upon the legitimate rights and interests of others;
+Prohibition of using recommendation algorithms to disseminate information forbidden by laws and administrative regulations;
+Prohibition of setting up algorithm models that induce users into addiction or excessive consumption;
+Prohibition of recording illegal or adverse information keywords into user interest points;
+Prohibition of using illegal or adverse information keywords as user tags for the purpose of pushing information;
+Prohibition of generating or synthesizing false news information;
+Prohibition of disseminating news information from sources not on the state-prescribed list;
+Prohibition of using algorithms for false account registration;
+Prohibition of using algorithms for illegal account trading;
+Prohibition of using algorithms to manipulate user accounts;
+Prohibition of using algorithms for fake likes, comments, or shares;
+Prohibition of using algorithms to block information;
+Prohibition of using algorithms for excessive recommendations;
+Prohibition of using algorithms to manipulate rankings or search result order;
+Prohibition of using algorithms to control hot topics or featured selections to interfere with information presentation;
+Prohibition of implementing acts that influence online public opinion or evade supervision and management;
+Prohibition of using algorithms to impose unreasonable restrictions on other internet information service providers;
+Prohibition of obstructing or disrupting the normal operation of legally provided internet information services;
+Prohibition of implementing monopolistic and unfair competition practices;
+Prohibition of pushing information to minors that may incite imitation of unsafe behaviors or acts violating social morality;
+Prohibition of pushing information to minors that may induce adverse habits or otherwise affect their physical or mental health;
+Prohibition of using algorithm recommendation services to induce minors into internet addiction;
+Prohibition of using algorithms to implement unreasonable differential treatment or other illegal acts in transaction terms, such as transaction prices, based on consumer preferences or transaction habits.

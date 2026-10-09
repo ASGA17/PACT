@@ -1,0 +1,28 @@
+Content that opposes the basic principles established by the Constitution.
+Content that endangers national security, divulges state secrets, subverts state power, overthrows the socialist system, or undermines national unity.
+Content that harms the honor and interests of the state.
+Content that incites ethnic hatred or discrimination, or undermines ethnic unity.
+Content that insults or abuses the image of heroes and martyrs, denies their deeds and accomplishments, or beautifies and whitewashes acts of aggressive warfare.
+Content that undermines national religious policies, or promotes cults and feudal superstitions.
+Content that spreads rumors or false and harmful information, disturbs social order, or undermines social stability.
+Content that promotes obscenity, pornography, gambling, violence, murder, terrorism, extremism, or incites criminal activity.
+Content that incites illegal assembly, association, procession, demonstration, or gathering to disturb social order.
+Content that defames others, discloses others' private information, or infringes upon the reputation, likeness, privacy, intellectual property, and other legitimate rights and interests of others.
+Content that damages international relations, as well as international peace and stability.
+Content that contains other information prohibited by laws and administrative regulations.
+Personal attacks and verbal abuse against others.
+Publishing remarks of a cursing, discriminatory, or indifferent to the dignity of life nature targeting the following groups, including but not limited to: different specific nationalities, regions, genders, gender identities, sexual orientations, races, ethnicities, health conditions, occupations, ages, beliefs, and disabled groups.
+Cursing, intimidating, or threatening others.
+Directly making derogatory comments on content created by other users.
+Using vulgar language towards other users, causing offense.
+Publishing prejudiced remarks targeting the following groups, including but not limited to: specific nationalities, regions, genders, gender identities, sexual orientations, races, ethnicities, health conditions, occupations, ages, beliefs, and disabled groups.
+Using this service to engage in illegal and criminal activities such as theft of trade secrets and personal information.
+Reverse compiling, reverse engineering, or by any other means attempting to obtain any information related to the algorithms of this service.
+Using this service to develop other products and services that are in competition with this service (unless such restriction violates relevant laws and regulations).
+By any means (including but not limited to through any robot, spider, other automatic device, or mirroring) to crawl or copy this service and any content it contains.
+Without Baidu's consent or a legitimate basis, removing or altering the artificial intelligence-generated watermarks or prominent labels for deep synthesis content involved in this service.
+Uploading, posting, emailing, or otherwise transmitting any material that contains software viruses or other computer code, files, or programs designed to interfere with, destroy, or limit the functionality of any computer software, hardware, or telecommunications equipment.
+Illegally intruding into the servers of this service, tampering with the relevant code of this service, or other acts that damage this service.
+Attempting to circumvent the security settings or network systems of the Baidu platform, including accessing data that the user is not supposed to access, logging into servers or accounts that have not been expressly authorized, or probing the security measures of other networks by means of port scanning or other methods.
+Obtaining output in a manner that imposes an unreasonable load on Baidu's computer systems or facilities, or engaging in conduct that may lead to such a situation.
+Without Baidu's authorization, illegally reselling or externally providing the ERNIE Bot service, or using the ERNIE Bot service for commercial purposes.

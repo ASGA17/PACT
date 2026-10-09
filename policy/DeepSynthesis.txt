@@ -1,0 +1,9 @@
+Prohibition of using deep synthesis services to create, duplicate, publish, or transmit information prohibited by laws and administrative regulations;
+Prohibition of engaging in activities that endanger national security and interests;
+Prohibition of engaging in activities that harm the national image;
+Prohibition of engaging in activities that harm the public interest;
+Prohibition of engaging in activities that disrupt economic and social order;
+Prohibition of engaging in activities that harm the legitimate rights and interests of others;
+Prohibition of using deep synthesis services to create, duplicate, publish, or disseminate false news information;
+Prohibition of providing information publication services to users who have not undergone real-name identity verification;
+Prohibition of using technical measures to delete, alter, or conceal required deep synthesis labels.

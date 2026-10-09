@@ -1,0 +1,11 @@
+[
+  {"PolicyKey":"claude:36","Head":"party","ResolvedHead":"political party","Evidence":"political candidate, party, issue or position","Reason":"Shared political modifier in a coordination."},
+  {"PolicyKey":"claude:36","Head":"issue","ResolvedHead":"political issue","Evidence":"political candidate, party, issue or position","Reason":"Shared political modifier in a coordination."},
+  {"PolicyKey":"claude:36","Head":"position","ResolvedHead":"political position","Evidence":"political candidate, party, issue or position","Reason":"Shared political modifier in a coordination."},
+  {"PolicyKey":"claude:66","Head":"fantasies","ResolvedHead":"sexual fantasies","Evidence":"sexual fetishes or fantasies","Reason":"Shared sexual modifier; not fantasy fiction."},
+  {"PolicyKey":"deepseek:28","Head":"viruses","ResolvedHead":"computer viruses","Evidence":"malicious programs or viruses","Reason":"Software domain inferred from the coordinated malicious programs."},
+  {"PolicyKey":"claude:22","Head":"size","ResolvedHead":"a person's body size","Evidence":"anyone’s body shape or size","Reason":"Shared possessor and body modifier."},
+  {"PolicyKey":"claude:26","Head":"abuse","ResolvedHead":"animal abuse","Evidence":"animal cruelty or abuse","Reason":"Shared animal modifier."},
+  {"PolicyKey":"mistral:4","Head":"attacks","ResolvedHead":"model theft attacks against Mistral AI products","Evidence":"model extraction or theft attacks, or otherwise attempt to discover the source code, underlying components, algorithms, and systems of Mistral AI products","Reason":"The model domain and provider's products apply to the selected action; not the user's own models."},
+  {"PolicyKey":"claude:13","Head":"behaviors","ResolvedHead":"discriminatory behaviors","Evidence":"discriminatory practices or behaviors","Reason":"Shared discriminatory modifier."}
+]

@@ -1,0 +1,20 @@
+Prohibition of engaging in dangerous or illegal activities or otherwise violating applicable laws or regulations, including generating or disseminating content involving child sexual abuse or exploitation.
+Prohibition of promoting violent extremism or terrorism.
+Prohibition of distributing non-consensual intimate imagery.
+Prohibition of encouraging self-harm.
+Prohibition of facilitating illegal acts or activities, such as providing instructions for making or accessing illegal or regulated substances, goods, or services.
+Prohibition of infringing on the rights of others, including privacy and intellectual property rights, such as by using personal data or biometric information without legally required consent.
+Prohibition of tracking or monitoring others without their consent.
+Prohibition of making automated decisions in high-stakes domains, such as employment, healthcare, finance, law, housing, insurance, or social welfare, that have a significant adverse impact on individual rights without human oversight.
+Prohibition of endangering the security of any service, including by generating or disseminating content that facilitates spam, phishing, or malware.
+Prohibition of abusing, harming, interfering with, or disrupting any infrastructure or service.
+Prohibition of circumventing abuse prevention measures or safety filters, such as by manipulating models to violate our policies.
+Prohibition of engaging in activities involving sexually explicit material, violence, hate, or other harmful acts, including generating or disseminating content that promotes hate or hate speech.
+Prohibition of harassing, bullying, intimidating, abusing, or insulting others.
+Prohibition of violence or inciting violence.
+Prohibition of generating or disseminating sexually explicit content, such as content created for the purpose of sexual gratification.
+Prohibition of engaging in activities that provide false information, make misrepresentations, or mislead others, including fraud, scams, or other deceptive practices.
+Prohibition of deceptively impersonating any individual, living or deceased, without clear disclosure.
+Prohibition of deceptively assisting in making misleading claims of expertise or capability in sensitive fields, such as health, finance, government services, or law.
+Prohibition of deceptively assisting in making misleading claims related to governmental or democratic processes or harmful health practices.
+Prohibition of deceptively and falsely representing generated content as being solely created by a human.

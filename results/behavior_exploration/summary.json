@@ -1,0 +1,77 @@
+{
+  "policies": 282,
+  "categories": 83,
+  "seeds": [
+    17,
+    29,
+    43,
+    71,
+    101
+  ],
+  "rows": [
+    {
+      "k": 5,
+      "submitted_per_method": 342,
+      "type_rw_five_seed_mean": {
+        "weighted_validity": 0.8152,
+        "mean_distinct_valid_per_type": 3.36,
+        "valid_policy_coverage": 127.0,
+        "valid_type_coverage": 80.0
+      },
+      "pact": {
+        "weighted_validity": 0.8889,
+        "mean_distinct_valid_per_type": 3.66,
+        "valid_policy_coverage": 210,
+        "valid_type_coverage": 82
+      }
+    },
+    {
+      "k": 10,
+      "submitted_per_method": 568,
+      "type_rw_five_seed_mean": {
+        "weighted_validity": 0.7905,
+        "mean_distinct_valid_per_type": 5.41,
+        "valid_policy_coverage": 160.0,
+        "valid_type_coverage": 81.4
+      },
+      "pact": {
+        "weighted_validity": 0.8592,
+        "mean_distinct_valid_per_type": 5.88,
+        "valid_policy_coverage": 252,
+        "valid_type_coverage": 83
+      }
+    },
+    {
+      "k": 20,
+      "submitted_per_method": 905,
+      "type_rw_five_seed_mean": {
+        "weighted_validity": 0.7635359116022099,
+        "mean_distinct_valid_per_type": 8.325301204819278,
+        "valid_policy_coverage": 199.8,
+        "valid_type_coverage": 82.6
+      },
+      "pact": {
+        "weighted_validity": 0.8309,
+        "mean_distinct_valid_per_type": 9.06,
+        "valid_policy_coverage": 277,
+        "valid_type_coverage": 83
+      }
+    },
+    {
+      "k": 30,
+      "submitted_per_method": 1174,
+      "type_rw_five_seed_mean": {
+        "weighted_validity": 0.751618398637138,
+        "mean_distinct_valid_per_type": 10.63132530120482,
+        "valid_policy_coverage": 225.0,
+        "valid_type_coverage": 82.6
+      },
+      "pact": {
+        "weighted_validity": 0.8007,
+        "mean_distinct_valid_per_type": 11.33,
+        "valid_policy_coverage": 282,
+        "valid_type_coverage": 83
+      }
+    }
+  ]
+}

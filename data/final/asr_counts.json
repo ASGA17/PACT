@@ -1,0 +1,41 @@
+{
+  "polaris_questions_per_model": 28660,
+  "per_model": [
+    {
+      "model": "Gemma-7B",
+      "polaris_lg_success": 1264,
+      "polaris_hb_success": 5492,
+      "pact_lg_success": 3688,
+      "pact_hb_success": 7824
+    },
+    {
+      "model": "Llama-2-7B-chat",
+      "polaris_lg_success": 148,
+      "polaris_hb_success": 1678,
+      "pact_lg_success": 1799,
+      "pact_hb_success": 4562
+    },
+    {
+      "model": "Llama-3.1-8B-Instruct",
+      "polaris_lg_success": 711,
+      "polaris_hb_success": 5049,
+      "pact_lg_success": 2729,
+      "pact_hb_success": 7363
+    },
+    {
+      "model": "Mistral-7B-Instruct-v0.2",
+      "polaris_lg_success": 8263,
+      "polaris_hb_success": 14743,
+      "pact_lg_success": 12059,
+      "pact_hb_success": 16670
+    },
+    {
+      "model": "Vicuna-7B-v1.5",
+      "polaris_lg_success": 4209,
+      "polaris_hb_success": 8463,
+      "pact_lg_success": 6835,
+      "pact_hb_success": 11127
+    }
+  ],
+  "pact_questions_per_model": 28662
+}

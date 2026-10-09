@@ -1,0 +1,25 @@
+# Recommended environment: Python 3.11 (64-bit).
+# Offline artifact validation and prompt export use the standard library only.
+
+# Model-provider clients and environment configuration.
+openai==1.78.0
+anthropic==0.51.0
+python-dotenv==1.1.0
+
+# Transformer models, embedding evaluation, and tokenizer support.
+torch==2.6.0
+transformers==4.51.3
+sentence-transformers==5.0.0
+huggingface-hub==0.31.1
+tokenizers==0.21.1
+safetensors==0.5.3
+sentencepiece==0.2.0
+protobuf==4.25.7
+accelerate==1.6.0
+
+# Numerical analysis, graph utilities, and progress reporting.
+numpy==2.2.6
+scipy==1.13.1
+scikit-learn==1.6.1
+networkx==3.4.2
+tqdm==4.67.1

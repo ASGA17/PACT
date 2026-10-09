@@ -1,0 +1,8 @@
+Prohibition of violating any applicable laws (including trade, sanctions, and export control laws), these terms (including any additional terms), or any of our policies through the use of Mistral AI products or your data;
+Prohibition of infringing, misappropriating, or otherwise violating any third-party rights (such as intellectual property rights) through the use of Mistral AI products or your data, including intentionally generating output that infringes upon such rights;
+Prohibition of sending us the personal information of any child under the age of 13 or the applicable age of digital consent, or allowing minors to use Mistral AI products without parental or guardian consent;
+Prohibition of reverse assembling, reverse compiling, decompiling, translating, conducting model extraction or theft attacks, or otherwise attempting to discover the source code, underlying components, algorithms, and systems of Mistral AI products (unless such restrictions are contrary to applicable law);
+Prohibition of reverse engineering Mistral AI products by using output or any modified version thereof;
+Prohibition of harming the security or proper functioning of Mistral AI products, including interfering with, circumventing, or bypassing security or audit mechanisms within the products, or conducting any vulnerability, penetration, or similar testing on the products;
+Prohibition of extracting any content from Mistral AI products using any method other than those permitted by the products;
+Prohibition of purchasing, selling, or transferring API keys or Mistral AI accounts from third parties.

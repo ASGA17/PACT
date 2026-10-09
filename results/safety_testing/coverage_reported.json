@@ -1,0 +1,32 @@
+{
+  "provenance": "Values transcribed from the manuscript Table tab:e41; not a new metric execution.",
+  "thresholds": [
+    0.4,
+    0.5,
+    0.6
+  ],
+  "PACT": {
+    "coverage": [
+      58.16,
+      87.52,
+      97.99
+    ],
+    "novelty": [
+      88.88,
+      66.47,
+      37.08
+    ]
+  },
+  "POLARIS": {
+    "coverage": [
+      60.49,
+      80.81,
+      94.9
+    ],
+    "novelty": [
+      88.87,
+      62.79,
+      28.0
+    ]
+  }
+}
