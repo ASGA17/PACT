@@ -1,0 +1,58 @@
+{
+  "provenance": "Values transcribed from the manuscript appendix table for the paired scenario-cluster bootstrap; not a new metric execution. Differences are PACT minus the corresponding ablation, in percentage points.",
+  "draws": 10000,
+  "cluster": "scenario",
+  "scenarios": 50,
+  "level": 0.95,
+  "method": "Pointwise 95% percentile intervals; whole scenarios resampled to preserve within-scenario correlation; no multiplicity adjustment.",
+  "intervals": [
+    {
+      "judge": "DeepSeek-V4.1-Flash",
+      "ablation": "no_constraints",
+      "metric": "bpr",
+      "difference_pp": 3.06,
+      "lower": -2.59,
+      "upper": 7.76
+    },
+    {
+      "judge": "GLM-5.3-Flash",
+      "ablation": "no_constraints",
+      "metric": "bpr",
+      "difference_pp": 3.18,
+      "lower": -3.65,
+      "upper": 9.88
+    },
+    {
+      "judge": "GPT-5.5",
+      "ablation": "no_constraints",
+      "metric": "bpr",
+      "difference_pp": 14.12,
+      "lower": 4.47,
+      "upper": 23.53
+    },
+    {
+      "judge": "DeepSeek-V4.1-Flash",
+      "ablation": "no_routing",
+      "metric": "task_match",
+      "difference_pp": 22.59,
+      "lower": 13.65,
+      "upper": 31.41
+    },
+    {
+      "judge": "GLM-5.3-Flash",
+      "ablation": "no_routing",
+      "metric": "task_match",
+      "difference_pp": 35.18,
+      "lower": 24.24,
+      "upper": 45.65
+    },
+    {
+      "judge": "GPT-5.5",
+      "ablation": "no_routing",
+      "metric": "task_match",
+      "difference_pp": 38.94,
+      "lower": 27.29,
+      "upper": 49.77
+    }
+  ]
+}

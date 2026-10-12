@@ -28,11 +28,17 @@ All final question records have the same fields. Optional metadata absent from a
 
 `scenes.jsonl` is an index of the final question set, not a new generation record. `asr_counts.json` contains `pact_*` success counts and `polaris_*` reported counts; denominators are 28,662 and 28,660 respectively.
 
+## Field sources
+
+The paper says compilation supplies the behavior and required details, and test design supplies the task type and expected output. In the released records: `TargetBehavior` is the behavior; `MustKeep` lists the required details; `PrimaryTaskType` is the selected task type; the expected-output instruction is rendered into each `Question` variant by `prompts/task_routing.py`. `BehaviorID` and `BranchID` retain provenance from graph selection, and `Description` carries the scenario context.
+
 ## Contract ablation
 
 `questions.jsonl.gz` contains four ablations; `full_reference_questions.jsonl.gz` contains PACT. Both question files use the same field set. `SampleSceneIndex` runs from 0 to 49; ablation IDs encode the configuration, sample, and slot. PACT reference questions reuse the corresponding final question IDs. Join using `(AblationArm, SampleSceneIndex, QuestionSlot)`. `SourceSceneIndex` maps to the final scenario identifiers. `blind_key.jsonl.gz` maps blinded `id` values to experimental cells. `blind_input.jsonl.gz` preserves the inputs supplied for judging. Judge files use `pcr`, `bpr`, and `task_match` Boolean labels.
 
 Configuration identifiers are stable code keys. In prose, `full_contract` is PACT and `scene_only` is Scenario Only; the other identifiers map directly to No Structure, No Constraints, and No Routing.
+
+`selected_scenes.jsonl` carries the sample composition referenced by the manuscript: `ConstraintStratum` splits the 50 scenarios into 25 with explicit conditions or exceptions (`constrained`) and 25 without (`unconstrained`); their `PrimaryTaskType` counts are artifact 19, procedural 18, advice 7, code 3, and document 3.
 
 ## Graph evaluation
 

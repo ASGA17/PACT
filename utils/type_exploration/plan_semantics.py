@@ -4,7 +4,6 @@ These functions are method-independent. Scores guide order, never certify validi
 """
 
 import copy
-import re
 from .graph_index import digest
 
 TYPE_DEFINITIONS = {

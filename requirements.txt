@@ -3,7 +3,6 @@
 
 # Model-provider clients and environment configuration.
 openai==1.78.0
-anthropic==0.51.0
 python-dotenv==1.1.0
 
 # Transformer models, embedding evaluation, and tokenizer support.

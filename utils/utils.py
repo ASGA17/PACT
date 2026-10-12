@@ -2,7 +2,7 @@
 import json
 import logging
 import networkx as nx
-from typing import List, Dict, Any, Tuple
+from typing import List, Dict, Any
 import re
 import os
 

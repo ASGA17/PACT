@@ -22,7 +22,7 @@ python scripts/export_ablation_prompts.py
 
 The first command checks cardinalities, unique keys, label alignment, all 45 contract ablation pass counts, graph metrics, and five-model safety counts. The second exports 3,400 ablation prompts using the released 50-scenario panel, without generating or evaluating new questions. The full configuration's existing 850 questions are supplied separately.
 
-To run a fresh 10,000-draw paired scenario bootstrap, install NumPy and execute `python scripts/cluster_bootstrap.py`. This preserves all 17 slots within each resampled scenario. The random seed is configurable.
+To re-run the paired scenario bootstrap: `python scripts/cluster_bootstrap.py` (NumPy required; the seed is configurable; all 17 slots are preserved within each resampled scenario). It writes `output/cluster_bootstrap.json`. The manuscript's intervals are recorded in `results/contract_ablation/bootstrap_intervals.json`.
 
 ## Policy parsing and graph components
 
@@ -43,3 +43,5 @@ python scripts/coverage.py --device cuda
 ```
 
 This requires the sentence-transformer model and sufficient compute; `--device cpu` is also supported. It embeds all 28,662 question records, retains duplicate rows in the evaluated distribution, uses normalized embeddings and 15th-neighbor density weights, and macro-averages over ten reference sets. It writes `results/safety_testing/coverage_recomputed.json`; manuscript values remain in `coverage_reported.json`.
+
+The manuscript's budget-allocation comparison (breadth-first vs depth-first) is recorded in `results/safety_testing/budget_allocation_reported.json`.

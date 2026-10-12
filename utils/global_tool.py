@@ -1,10 +1,10 @@
 import logging
 import time
-from typing import Callable, List, Dict
+from typing import Callable
 import json
 import os
 import sys
-from llms import LLMClient, OpenAILLMClient, GeminiLLMClient, DeepseekLLMClient
+from llms import LLMClient, OpenAILLMClient, DeepseekLLMClient
 
 SUBJECT_EXAMPLE_NUM = 3
 EXAMPLE_NUM = 10
@@ -16,7 +16,6 @@ def get_llm_client(model_name: str) -> LLMClient:
     """Create the API client matching the supplied model name."""
     # Map model families to their API clients.
     model_map = {
-        "gemini": GeminiLLMClient,
         "gpt": OpenAILLMClient,
         "deepseek": DeepseekLLMClient,
     }

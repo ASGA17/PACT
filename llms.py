@@ -1,16 +1,11 @@
 """Unified LLM clients for PACT."""
 
-import asyncio
 import logging
 import os
 import threading
 from pathlib import Path
 from typing import Any, Dict, Optional
 
-try:
-    import anthropic
-except ImportError:  # Optional unless an Anthropic-backed client is selected.
-    anthropic = None
 import huggingface_hub
 import openai
 from dotenv import load_dotenv
@@ -319,46 +314,6 @@ class OpenAILLMClient(LLMClient):
         )
 
 
-class GeminiLLMClient(LLMClient):
-    """
-    Gemini client through an OpenAI-compatible endpoint.
-
-    Required:
-        GEMINI_API_KEY
-        GEMINI_BASE_URL
-    """
-
-    def __init__(self, model_name: str):
-        super().__init__(model_name)
-
-        api_key = os.getenv("GEMINI_API_KEY")
-        base_url = os.getenv("GEMINI_BASE_URL")
-
-        if not api_key:
-            raise ValueError("GEMINI_API_KEY is not configured.")
-        if not base_url:
-            raise ValueError("GEMINI_BASE_URL is not configured.")
-
-        self.client = openai.OpenAI(
-            api_key=api_key,
-            base_url=base_url,
-        )
-
-    def invoke(
-        self,
-        prompt: str,
-        system_prompt: Optional[str] = None,
-        **kwargs,
-    ) -> Optional[str]:
-        return self._invoke_openai_compatible(
-            client=self.client,
-            provider_name="Gemini",
-            prompt=prompt,
-            system_prompt=system_prompt,
-            **kwargs,
-        )
-
-
 class DeepseekLLMClient(LLMClient):
     def __init__(self, model_name: str):
         super().__init__(model_name)
@@ -411,77 +366,6 @@ class HuggingFaceLLMClient(LLMClient):
             system_prompt=system_prompt,
             **kwargs,
         )
-
-
-# Anthropic
-class AnthropicLLMClient(LLMClient):
-    def __init__(self, model_name: str):
-        super().__init__(model_name)
-
-        if anthropic is None:
-            raise ImportError(
-                "Install the optional 'anthropic' package to use AnthropicLLMClient."
-            )
-
-        api_key = os.getenv("ANTHROPIC_API_KEY")
-        if not api_key:
-            raise ValueError("ANTHROPIC_API_KEY is not configured.")
-
-        self.client = anthropic.Anthropic(api_key=api_key)
-
-    def invoke(
-        self,
-        prompt: str,
-        system_prompt: Optional[str] = None,
-        **kwargs,
-    ) -> Optional[str]:
-        request_kwargs = dict(kwargs)
-        request_kwargs.setdefault("max_tokens", 4096)
-
-        if system_prompt:
-            request_kwargs["system"] = system_prompt
-
-        self._record_api_call()
-
-        try:
-            response = self.client.messages.create(
-                model=self.model_name,
-                messages=[
-                    {
-                        "role": "user",
-                        "content": prompt,
-                    }
-                ],
-                **request_kwargs,
-            )
-        except Exception:
-            self._record_failure()
-            logger.exception(
-                "Anthropic | request failed | model=%s",
-                self.model_name,
-            )
-            return None
-
-        text_parts = []
-
-        for block in getattr(response, "content", []) or []:
-            text = getattr(block, "text", None)
-            if text:
-                text_parts.append(text)
-
-        content = "\n".join(text_parts).strip()
-        success = bool(content)
-
-        self._record_response(response, success=success)
-
-        if not success:
-            logger.warning(
-                "Anthropic | empty response | model=%s",
-                self.model_name,
-            )
-            return None
-
-        return content
 
 
 # Local Transformers

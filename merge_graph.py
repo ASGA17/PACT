@@ -2,7 +2,6 @@ import logging
 from typing import Dict, List, Optional
 
 from llms import LLMClient
-from policy_loader import load_regulation_text
 from utils.global_tool import get_llm_client, load_save
 from utils.logging_utils import setup_logging
 from utils.merge_graph.policy_graph import build_policy_graph_batch
@@ -11,8 +10,6 @@ from utils.merge_graph.global_graph import (
     build_global_graph_batch,
     build_global_graph_from_files,
 )
-
-from utils.utils import parse_json_response
 
 # Shared batch and retry settings.
 BATCH_SIZE = 10

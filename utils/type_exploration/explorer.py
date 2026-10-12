@@ -1,6 +1,5 @@
 """Explore source-local OR choices while preserving AND groups and conditions."""
 
-import time
 from collections import defaultdict
 
 from .graph_index import STRUCTURAL, digest

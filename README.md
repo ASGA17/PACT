@@ -27,7 +27,7 @@ See [Reproduction](docs/REPRODUCING.md) for model-backed steps and their require
 | `split_policy.py`, `merge_graph.py`, `utils/` | Layered parsing, grounding, policy graphs, constrained exploration, and contract compilation |
 | `utils/type_exploration/` | Graph indexing, candidate behavior-path exploration, branch selection, and validity-evaluation helpers |
 | `prompts/` | Task-specific output requirements, 17 question slots, and contract ablation prompts |
-| `policy/` | Thirteen policy source texts |
+| `policy/` | Thirteen policy source texts; per-policy source labels are in `data/graphs/global_graph.json` |
 | `data/graphs/` | Constructed global policy graph |
 | `data/graph_evaluation/` | 100-policy sample, Gold facts, extracted representations, and per-policy scores |
 | `data/contract_ablation/` | 50 scenarios, five configurations, blinded inputs, and three judges' labels |
@@ -42,8 +42,20 @@ The contract ablation uses 50 of these scenarios, comprising 25 with explicit co
 
 ## Evaluation
 
-Policy graph evaluation and contract ablation score records and final safety labels support offline aggregation. Behavior exploration results and the traversal implementation are also included. `results/safety_testing/coverage_reported.json` contains paper-reported coverage values; `scripts/coverage.py` evaluates the released questions and writes a separate results file.
+Policy graph evaluation and contract ablation score records and final safety labels support offline aggregation. Behavior exploration results and the traversal implementation are also included. `results/safety_testing/coverage_reported.json` contains paper-reported coverage values; `scripts/coverage.py` evaluates the released questions and writes a separate results file. `results/safety_testing/budget_allocation_reported.json` compares coverage and novelty between the breadth-first (slot-major) and depth-first (scene-major) budget-allocation strategies.
 
 See [Data dictionary](docs/DATA_DICTIONARY.md) and [Third-party materials](docs/THIRD_PARTY.md). No API keys, model weights, local caches, or author configuration files are included.
+
+## Supplementary material
+
+The paper's Data Availability statement names this repository as supplementary material. Where each promised item lives:
+
+- Representation and algorithm details: [Data dictionary](docs/DATA_DICTIONARY.md) plus the pipeline code (`split_policy.py`, `merge_graph.py`, `utils/`, `prompts/`).
+- Evaluation protocols: [Reproduction](docs/REPRODUCING.md) and `scripts/`.
+- Policy-source distribution: per-policy `SourceID` values in `data/graphs/global_graph.json` (282 policies across 13 sources).
+- Sample composition of the ablation panel: `ConstraintStratum` and `PrimaryTaskType` in `data/contract_ablation/selected_scenes.jsonl`.
+- Scenario-cluster bootstrap intervals: `results/contract_ablation/bootstrap_intervals.json` (procedure: `scripts/cluster_bootstrap.py`).
+- Budget-allocation comparison: `results/safety_testing/budget_allocation_reported.json` (breadth-first vs depth-first).
+- Additional experimental results: `results/behavior_exploration/summary.json`.
 
 Large datasets use gzip compression. The evaluation scripts read them directly; manual extraction is optional. For example, `gzip -dc data/final/questions.jsonl.gz | head -n 1` displays the first question.
